@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40D434B0B69CA159E4DF97B0 /* Pods_OwenEthereumWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234E17FBEE1D731DEAA0D56D /* Pods_OwenEthereumWallet.framework */; };
+		C378AF082B80CA5F00985FF7 /* EthereumNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF072B80CA5F00985FF7 /* EthereumNode.swift */; };
+		C378AF0C2B80CBDA00985FF7 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF0B2B80CBDA00985FF7 /* CreatePasswordView.swift */; };
+		C378AF0E2B80CBE300985FF7 /* CreatePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF0D2B80CBE300985FF7 /* CreatePasswordViewModel.swift */; };
+		C378AF102B80D26700985FF7 /* GenerateMnemonicKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF0F2B80D26700985FF7 /* GenerateMnemonicKeyView.swift */; };
+		C378AF122B80D26D00985FF7 /* GenerateMnemonicKeyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF112B80D26D00985FF7 /* GenerateMnemonicKeyViewModel.swift */; };
+		C378AF152B80E18800985FF7 /* CustomPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF142B80E18800985FF7 /* CustomPopupView.swift */; };
+		C378AF182B80E3C500985FF7 /* LocalDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF172B80E3C500985FF7 /* LocalDBManager.swift */; };
+		C378AF1A2B80E40800985FF7 /* EncryptData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF192B80E40800985FF7 /* EncryptData.swift */; };
+		C378AF1C2B80E43C00985FF7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C378AF1B2B80E43C00985FF7 /* .gitignore */; };
+		C378AF1E2B80E48400985FF7 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF1D2B80E48400985FF7 /* UserDefaults+Extension.swift */; };
+		C378AF212B80E4AC00985FF7 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF202B80E4AC00985FF7 /* UserDefaultsKeys.swift */; };
+		C378AF242B80E70000985FF7 /* AccessAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF232B80E70000985FF7 /* AccessAccountView.swift */; };
+		C378AF262B80E72F00985FF7 /* AccessAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF252B80E72F00985FF7 /* AccessAccountViewModel.swift */; };
+		C378AF2B2B80F40200985FF7 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF2A2B80F40200985FF7 /* UIApplication+Extension.swift */; };
+		C378AF2D2B80F5DE00985FF7 /* MnemonicBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF2C2B80F5DE00985FF7 /* MnemonicBuilder.swift */; };
+		C3BEAA7A2B80C2F200C04F29 /* Cassette in Frameworks */ = {isa = PBXBuildFile; productRef = C3BEAA792B80C2F200C04F29 /* Cassette */; };
+		C3BEAA7D2B80C36100C04F29 /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = C3BEAA7C2B80C36100C04F29 /* web3swift */; };
+		C3BEAA7F2B80C3C700C04F29 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BEAA7E2B80C3C700C04F29 /* Constants.swift */; };
+		C3BEAA812B80C3D600C04F29 /* AuthMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BEAA802B80C3D500C04F29 /* AuthMainViewModel.swift */; };
+		C3BEAA842B80C41600C04F29 /* EthereumAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BEAA832B80C41600C04F29 /* EthereumAdapter.swift */; };
+		C3BEAA872B80C49300C04F29 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = C3BEAA862B80C49300C04F29 /* BigInt */; };
+		C3BEAA8A2B80C63C00C04F29 /* KeccakTiny in Frameworks */ = {isa = PBXBuildFile; productRef = C3BEAA892B80C63C00C04F29 /* KeccakTiny */; };
+		C3BEAA8C2B80C63C00C04F29 /* Sha3Tiny in Frameworks */ = {isa = PBXBuildFile; productRef = C3BEAA8B2B80C63C00C04F29 /* Sha3Tiny */; };
+		C3BEAA8E2B80C63C00C04F29 /* SwiftKeccak in Frameworks */ = {isa = PBXBuildFile; productRef = C3BEAA8D2B80C63C00C04F29 /* SwiftKeccak */; };
+		C3BEAA912B80C71100C04F29 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BEAA902B80C71000C04F29 /* Data+Extension.swift */; };
 		D9618D502B7C79450036FC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9618D4F2B7C79450036FC3F /* AppDelegate.swift */; };
 		D9618D522B7C79450036FC3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9618D512B7C79450036FC3F /* SceneDelegate.swift */; };
 		D9618D592B7C79460036FC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9618D582B7C79460036FC3F /* Assets.xcassets */; };
@@ -20,6 +46,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		234E17FBEE1D731DEAA0D56D /* Pods_OwenEthereumWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwenEthereumWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		889B2A75A9EA771FB2C37F0E /* Pods-OwenEthereumWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwenEthereumWallet.debug.xcconfig"; path = "Target Support Files/Pods-OwenEthereumWallet/Pods-OwenEthereumWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		C378AF072B80CA5F00985FF7 /* EthereumNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumNode.swift; sourceTree = "<group>"; };
+		C378AF0B2B80CBDA00985FF7 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		C378AF0D2B80CBE300985FF7 /* CreatePasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewModel.swift; sourceTree = "<group>"; };
+		C378AF0F2B80D26700985FF7 /* GenerateMnemonicKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMnemonicKeyView.swift; sourceTree = "<group>"; };
+		C378AF112B80D26D00985FF7 /* GenerateMnemonicKeyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMnemonicKeyViewModel.swift; sourceTree = "<group>"; };
+		C378AF142B80E18800985FF7 /* CustomPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopupView.swift; sourceTree = "<group>"; };
+		C378AF172B80E3C500985FF7 /* LocalDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDBManager.swift; sourceTree = "<group>"; };
+		C378AF192B80E40800985FF7 /* EncryptData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptData.swift; sourceTree = "<group>"; };
+		C378AF1B2B80E43C00985FF7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C378AF1D2B80E48400985FF7 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		C378AF202B80E4AC00985FF7 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		C378AF232B80E70000985FF7 /* AccessAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessAccountView.swift; sourceTree = "<group>"; };
+		C378AF252B80E72F00985FF7 /* AccessAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessAccountViewModel.swift; sourceTree = "<group>"; };
+		C378AF2A2B80F40200985FF7 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		C378AF2C2B80F5DE00985FF7 /* MnemonicBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicBuilder.swift; sourceTree = "<group>"; };
+		C3BEAA7E2B80C3C700C04F29 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C3BEAA802B80C3D500C04F29 /* AuthMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMainViewModel.swift; sourceTree = "<group>"; };
+		C3BEAA832B80C41600C04F29 /* EthereumAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumAdapter.swift; sourceTree = "<group>"; };
+		C3BEAA902B80C71000C04F29 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		D9618D4C2B7C79450036FC3F /* OwenEthereumWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwenEthereumWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9618D4F2B7C79450036FC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9618D512B7C79450036FC3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +79,7 @@
 		D9618D752B7C7AAB0036FC3F /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
 		D9618D782B7C7ABB0036FC3F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		D9618D7D2B7C84CB0036FC3F /* AuthMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMainView.swift; sourceTree = "<group>"; };
+		FB9382F88F18438095614CD5 /* Pods-OwenEthereumWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwenEthereumWallet.release.xcconfig"; path = "Target Support Files/Pods-OwenEthereumWallet/Pods-OwenEthereumWallet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +87,124 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BEAA8A2B80C63C00C04F29 /* KeccakTiny in Frameworks */,
+				C3BEAA872B80C49300C04F29 /* BigInt in Frameworks */,
+				C3BEAA7A2B80C2F200C04F29 /* Cassette in Frameworks */,
+				C3BEAA8C2B80C63C00C04F29 /* Sha3Tiny in Frameworks */,
+				C3BEAA7D2B80C36100C04F29 /* web3swift in Frameworks */,
+				C3BEAA8E2B80C63C00C04F29 /* SwiftKeccak in Frameworks */,
+				40D434B0B69CA159E4DF97B0 /* Pods_OwenEthereumWallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C7BD95004F491693F1B2C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234E17FBEE1D731DEAA0D56D /* Pods_OwenEthereumWallet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C167D824F099EC019A2DD907 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				889B2A75A9EA771FB2C37F0E /* Pods-OwenEthereumWallet.debug.xcconfig */,
+				FB9382F88F18438095614CD5 /* Pods-OwenEthereumWallet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C378AF092B80CBBD00985FF7 /* CreatePassword */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF0B2B80CBDA00985FF7 /* CreatePasswordView.swift */,
+				C378AF0D2B80CBE300985FF7 /* CreatePasswordViewModel.swift */,
+			);
+			path = CreatePassword;
+			sourceTree = "<group>";
+		};
+		C378AF0A2B80CBC700985FF7 /* GenerateMnemonic */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF0F2B80D26700985FF7 /* GenerateMnemonicKeyView.swift */,
+				C378AF112B80D26D00985FF7 /* GenerateMnemonicKeyViewModel.swift */,
+			);
+			path = GenerateMnemonic;
+			sourceTree = "<group>";
+		};
+		C378AF132B80E18000985FF7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF272B80EF9600985FF7 /* Popup */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C378AF162B80E3BB00985FF7 /* SupportLib */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF172B80E3C500985FF7 /* LocalDBManager.swift */,
+				C378AF192B80E40800985FF7 /* EncryptData.swift */,
+				C378AF2C2B80F5DE00985FF7 /* MnemonicBuilder.swift */,
+			);
+			path = SupportLib;
+			sourceTree = "<group>";
+		};
+		C378AF1F2B80E4A300985FF7 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF202B80E4AC00985FF7 /* UserDefaultsKeys.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C378AF222B80E6F500985FF7 /* AccessAccount */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF232B80E70000985FF7 /* AccessAccountView.swift */,
+				C378AF252B80E72F00985FF7 /* AccessAccountViewModel.swift */,
+			);
+			path = AccessAccount;
+			sourceTree = "<group>";
+		};
+		C378AF272B80EF9600985FF7 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF142B80E18800985FF7 /* CustomPopupView.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		C3BEAA822B80C40300C04F29 /* BlockChain */ = {
+			isa = PBXGroup;
+			children = (
+				C3BEAA832B80C41600C04F29 /* EthereumAdapter.swift */,
+				C378AF072B80CA5F00985FF7 /* EthereumNode.swift */,
+			);
+			path = BlockChain;
+			sourceTree = "<group>";
+		};
+		C3BEAA8F2B80C70200C04F29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3BEAA902B80C71000C04F29 /* Data+Extension.swift */,
+				C378AF1D2B80E48400985FF7 /* UserDefaults+Extension.swift */,
+				C378AF2A2B80F40200985FF7 /* UIApplication+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D9618D432B7C79440036FC3F = {
 			isa = PBXGroup;
 			children = (
+				C378AF1B2B80E43C00985FF7 /* .gitignore */,
 				D9618D4E2B7C79450036FC3F /* OwenEthereumWallet */,
 				D9618D4D2B7C79450036FC3F /* Products */,
+				C167D824F099EC019A2DD907 /* Pods */,
+				9C7BD95004F491693F1B2C47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +219,7 @@
 		D9618D4E2B7C79450036FC3F /* OwenEthereumWallet */ = {
 			isa = PBXGroup;
 			children = (
+				C3BEAA822B80C40300C04F29 /* BlockChain */,
 				D9618D672B7C79F10036FC3F /* Helper */,
 				D9618D652B7C79570036FC3F /* Presentation */,
 				D9618D642B7C79510036FC3F /* Resources */,
@@ -93,6 +249,7 @@
 		D9618D652B7C79570036FC3F /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				C378AF132B80E18000985FF7 /* CustomViews */,
 				D9618D6D2B7C7A720036FC3F /* Wallet */,
 				D9618D662B7C79760036FC3F /* Storyboard */,
 			);
@@ -110,7 +267,11 @@
 		D9618D672B7C79F10036FC3F /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				C378AF1F2B80E4A300985FF7 /* Enums */,
+				C378AF162B80E3BB00985FF7 /* SupportLib */,
+				C3BEAA8F2B80C70200C04F29 /* Extensions */,
 				D9618D682B7C79F60036FC3F /* UIKit */,
+				C3BEAA7E2B80C3C700C04F29 /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -136,8 +297,9 @@
 		D9618D6E2B7C7A7C0036FC3F /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				D9618D7C2B7C84BE0036FC3F /* GenerateMnemonicKey */,
-				D9618D7B2B7C84B40036FC3F /* CreatePassword */,
+				C378AF222B80E6F500985FF7 /* AccessAccount */,
+				C378AF0A2B80CBC700985FF7 /* GenerateMnemonic */,
+				C378AF092B80CBBD00985FF7 /* CreatePassword */,
 				D9618D7A2B7C84A80036FC3F /* AuthMain */,
 			);
 			path = Authentication;
@@ -181,22 +343,9 @@
 			isa = PBXGroup;
 			children = (
 				D9618D7D2B7C84CB0036FC3F /* AuthMainView.swift */,
+				C3BEAA802B80C3D500C04F29 /* AuthMainViewModel.swift */,
 			);
 			path = AuthMain;
-			sourceTree = "<group>";
-		};
-		D9618D7B2B7C84B40036FC3F /* CreatePassword */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CreatePassword;
-			sourceTree = "<group>";
-		};
-		D9618D7C2B7C84BE0036FC3F /* GenerateMnemonicKey */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = GenerateMnemonicKey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,15 +355,25 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9618D602B7C79460036FC3F /* Build configuration list for PBXNativeTarget "OwenEthereumWallet" */;
 			buildPhases = (
+				78CEC91D0B659DD7E1B2D235 /* [CP] Check Pods Manifest.lock */,
 				D9618D482B7C79450036FC3F /* Sources */,
 				D9618D492B7C79450036FC3F /* Frameworks */,
 				D9618D4A2B7C79450036FC3F /* Resources */,
+				4F70FAC6BA49D684805C7416 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = OwenEthereumWallet;
+			packageProductDependencies = (
+				C3BEAA792B80C2F200C04F29 /* Cassette */,
+				C3BEAA7C2B80C36100C04F29 /* web3swift */,
+				C3BEAA862B80C49300C04F29 /* BigInt */,
+				C3BEAA892B80C63C00C04F29 /* KeccakTiny */,
+				C3BEAA8B2B80C63C00C04F29 /* Sha3Tiny */,
+				C3BEAA8D2B80C63C00C04F29 /* SwiftKeccak */,
+			);
 			productName = OwenEthereumWallet;
 			productReference = D9618D4C2B7C79450036FC3F /* OwenEthereumWallet.app */;
 			productType = "com.apple.product-type.application";
@@ -243,6 +402,12 @@
 				Base,
 			);
 			mainGroup = D9618D432B7C79440036FC3F;
+			packageReferences = (
+				C3BEAA782B80C2F200C04F29 /* XCRemoteSwiftPackageReference "Cassette" */,
+				C3BEAA7B2B80C36100C04F29 /* XCRemoteSwiftPackageReference "web3swift" */,
+				C3BEAA852B80C49300C04F29 /* XCRemoteSwiftPackageReference "BigInt" */,
+				C3BEAA882B80C63C00C04F29 /* XCRemoteSwiftPackageReference "SwiftKeccak" */,
+			);
 			productRefGroup = D9618D4D2B7C79450036FC3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,11 +423,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9618D5C2B7C79460036FC3F /* LaunchScreen.storyboard in Resources */,
+				C378AF1C2B80E43C00985FF7 /* .gitignore in Resources */,
 				D9618D592B7C79460036FC3F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F70FAC6BA49D684805C7416 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OwenEthereumWallet/Pods-OwenEthereumWallet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OwenEthereumWallet/Pods-OwenEthereumWallet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OwenEthereumWallet/Pods-OwenEthereumWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CEC91D0B659DD7E1B2D235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OwenEthereumWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9618D482B7C79450036FC3F /* Sources */ = {
@@ -270,13 +478,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9618D502B7C79450036FC3F /* AppDelegate.swift in Sources */,
+				C378AF122B80D26D00985FF7 /* GenerateMnemonicKeyViewModel.swift in Sources */,
+				C378AF262B80E72F00985FF7 /* AccessAccountViewModel.swift in Sources */,
+				C378AF0C2B80CBDA00985FF7 /* CreatePasswordView.swift in Sources */,
 				D9618D742B7C7AA60036FC3F /* WalletView.swift in Sources */,
 				D9618D762B7C7AAB0036FC3F /* SendView.swift in Sources */,
+				C378AF082B80CA5F00985FF7 /* EthereumNode.swift in Sources */,
 				D9618D792B7C7ABB0036FC3F /* SettingView.swift in Sources */,
 				D9618D6C2B7C7A150036FC3F /* TabBarController.swift in Sources */,
+				C378AF242B80E70000985FF7 /* AccessAccountView.swift in Sources */,
+				C378AF152B80E18800985FF7 /* CustomPopupView.swift in Sources */,
+				C3BEAA912B80C71100C04F29 /* Data+Extension.swift in Sources */,
 				D9618D6B2B7C7A150036FC3F /* CustomNavigationController.swift in Sources */,
+				C378AF1A2B80E40800985FF7 /* EncryptData.swift in Sources */,
 				D9618D522B7C79450036FC3F /* SceneDelegate.swift in Sources */,
+				C378AF1E2B80E48400985FF7 /* UserDefaults+Extension.swift in Sources */,
 				D9618D7E2B7C84CB0036FC3F /* AuthMainView.swift in Sources */,
+				C378AF2D2B80F5DE00985FF7 /* MnemonicBuilder.swift in Sources */,
+				C3BEAA7F2B80C3C700C04F29 /* Constants.swift in Sources */,
+				C378AF212B80E4AC00985FF7 /* UserDefaultsKeys.swift in Sources */,
+				C378AF182B80E3C500985FF7 /* LocalDBManager.swift in Sources */,
+				C3BEAA812B80C3D600C04F29 /* AuthMainViewModel.swift in Sources */,
+				C378AF102B80D26700985FF7 /* GenerateMnemonicKeyView.swift in Sources */,
+				C378AF0E2B80CBE300985FF7 /* CreatePasswordViewModel.swift in Sources */,
+				C378AF2B2B80F40200985FF7 /* UIApplication+Extension.swift in Sources */,
+				C3BEAA842B80C41600C04F29 /* EthereumAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +557,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -394,7 +620,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -415,12 +641,13 @@
 		};
 		D9618D612B7C79460036FC3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889B2A75A9EA771FB2C37F0E /* Pods-OwenEthereumWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HBM2HJZ98F;
+				DEVELOPMENT_TEAM = 48S4T8HCYX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OwenEthereumWallet/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -446,12 +673,13 @@
 		};
 		D9618D622B7C79460036FC3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9382F88F18438095614CD5 /* Pods-OwenEthereumWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HBM2HJZ98F;
+				DEVELOPMENT_TEAM = 48S4T8HCYX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OwenEthereumWallet/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -497,6 +725,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3BEAA782B80C2F200C04F29 /* XCRemoteSwiftPackageReference "Cassette" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ios-carki/Cassette.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.10;
+			};
+		};
+		C3BEAA7B2B80C36100C04F29 /* XCRemoteSwiftPackageReference "web3swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/web3swift-team/web3swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		C3BEAA852B80C49300C04F29 /* XCRemoteSwiftPackageReference "BigInt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/attaswift/BigInt.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.3.0;
+			};
+		};
+		C3BEAA882B80C63C00C04F29 /* XCRemoteSwiftPackageReference "SwiftKeccak" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bitflying/SwiftKeccak.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3BEAA792B80C2F200C04F29 /* Cassette */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3BEAA782B80C2F200C04F29 /* XCRemoteSwiftPackageReference "Cassette" */;
+			productName = Cassette;
+		};
+		C3BEAA7C2B80C36100C04F29 /* web3swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3BEAA7B2B80C36100C04F29 /* XCRemoteSwiftPackageReference "web3swift" */;
+			productName = web3swift;
+		};
+		C3BEAA862B80C49300C04F29 /* BigInt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3BEAA852B80C49300C04F29 /* XCRemoteSwiftPackageReference "BigInt" */;
+			productName = BigInt;
+		};
+		C3BEAA892B80C63C00C04F29 /* KeccakTiny */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3BEAA882B80C63C00C04F29 /* XCRemoteSwiftPackageReference "SwiftKeccak" */;
+			productName = KeccakTiny;
+		};
+		C3BEAA8B2B80C63C00C04F29 /* Sha3Tiny */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3BEAA882B80C63C00C04F29 /* XCRemoteSwiftPackageReference "SwiftKeccak" */;
+			productName = Sha3Tiny;
+		};
+		C3BEAA8D2B80C63C00C04F29 /* SwiftKeccak */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3BEAA882B80C63C00C04F29 /* XCRemoteSwiftPackageReference "SwiftKeccak" */;
+			productName = SwiftKeccak;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9618D442B7C79440036FC3F /* Project object */;
 }

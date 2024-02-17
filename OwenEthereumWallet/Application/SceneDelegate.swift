@@ -54,6 +54,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
-
+    func changeRootVC(_ vc:UIViewController, animated: Bool) {
+        guard let window = self.window else { return }
+        window.rootViewController = vc // 전환
+        
+        UIView.transition(with: window, duration: 0.3, options: [.transitionCrossDissolve], animations: nil, completion: nil)
+    }
 }
 
