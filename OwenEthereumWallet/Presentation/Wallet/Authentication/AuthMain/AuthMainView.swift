@@ -45,6 +45,9 @@ struct AuthMainView: View {
                     }
                 
                 BtnCassette(buttonMode: .normal(text: "Import Wallet"))
+                    .click {
+                        navigation?.pushViewController(UIHostingController(rootView: ImportAccountView(navigation: navigation)), animated: true)
+                    }
             }
             .padding(.horizontal, 16)
         }

@@ -32,20 +32,20 @@ final class TabBarController: UITabBarController{
         let tabBarItem2 = tabBar.items![1] as UITabBarItem
         let tabBarItem3 = tabBar.items![2] as UITabBarItem
 
-        tabBarItem1.selectedImage = UIImage(named: "Coin")
-        tabBarItem2.selectedImage = UIImage(named: "Token")
-        tabBarItem3.selectedImage = UIImage(named: "Cert")
+        tabBarItem1.selectedImage = UIImage(systemName: "person")
+        tabBarItem2.selectedImage = UIImage(systemName: "globe")
+        tabBarItem3.selectedImage = UIImage(systemName: "trash")
 
-        tabBarItem1.title = "Coin"
-        tabBarItem2.title = "Token"
-        tabBarItem3.title = "Cert."
+        tabBarItem1.title = "Wallet"
+        tabBarItem2.title = "NFT"
+        tabBarItem3.title = "Info"
     }
     
     private func setupVC() {
         viewControllers = [
-            create1(image: UIImage(named: "Coin")!),
-            create2(image: UIImage(named: "Token")!),
-            create3(image: UIImage(named: "Cert")!)
+            create1(image: UIImage(systemName: "person")!),
+            create2(image: UIImage(systemName: "globe")!),
+            create3(image: UIImage(systemName: "trash")!)
         ]
     }
     

@@ -19,7 +19,7 @@ struct CustomPopupView: View {
     var dismissAction: () -> ()
     var action : () -> ()
     
-    var passwordText: Binding<String> = .constant("")
+    @State var passwordText: Binding<String> = .constant("")
     @State var passwordError: Binding<Bool> = .constant(false)
     @State var passwordErrorText: Binding<String> = .constant("")
     

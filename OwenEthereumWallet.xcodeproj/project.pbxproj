@@ -23,6 +23,9 @@
 		C378AF262B80E72F00985FF7 /* AccessAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF252B80E72F00985FF7 /* AccessAccountViewModel.swift */; };
 		C378AF2B2B80F40200985FF7 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF2A2B80F40200985FF7 /* UIApplication+Extension.swift */; };
 		C378AF2D2B80F5DE00985FF7 /* MnemonicBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF2C2B80F5DE00985FF7 /* MnemonicBuilder.swift */; };
+		C378AF312B83B25400985FF7 /* ImportAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF302B83B25400985FF7 /* ImportAccountView.swift */; };
+		C378AF332B83B25D00985FF7 /* ImportAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF322B83B25D00985FF7 /* ImportAccountViewModel.swift */; };
+		C378AF362B83B2EE00985FF7 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378AF352B83B2EE00985FF7 /* CustomTextEditor.swift */; };
 		C3BEAA7A2B80C2F200C04F29 /* Cassette in Frameworks */ = {isa = PBXBuildFile; productRef = C3BEAA792B80C2F200C04F29 /* Cassette */; };
 		C3BEAA7D2B80C36100C04F29 /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = C3BEAA7C2B80C36100C04F29 /* web3swift */; };
 		C3BEAA7F2B80C3C700C04F29 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BEAA7E2B80C3C700C04F29 /* Constants.swift */; };
@@ -63,6 +66,9 @@
 		C378AF252B80E72F00985FF7 /* AccessAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessAccountViewModel.swift; sourceTree = "<group>"; };
 		C378AF2A2B80F40200985FF7 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		C378AF2C2B80F5DE00985FF7 /* MnemonicBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicBuilder.swift; sourceTree = "<group>"; };
+		C378AF302B83B25400985FF7 /* ImportAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportAccountView.swift; sourceTree = "<group>"; };
+		C378AF322B83B25D00985FF7 /* ImportAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportAccountViewModel.swift; sourceTree = "<group>"; };
+		C378AF352B83B2EE00985FF7 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
 		C3BEAA7E2B80C3C700C04F29 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C3BEAA802B80C3D500C04F29 /* AuthMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMainViewModel.swift; sourceTree = "<group>"; };
 		C3BEAA832B80C41600C04F29 /* EthereumAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumAdapter.swift; sourceTree = "<group>"; };
@@ -138,6 +144,7 @@
 		C378AF132B80E18000985FF7 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				C378AF342B83B2E200985FF7 /* TextEditor */,
 				C378AF272B80EF9600985FF7 /* Popup */,
 			);
 			path = CustomViews;
@@ -176,6 +183,23 @@
 				C378AF142B80E18800985FF7 /* CustomPopupView.swift */,
 			);
 			path = Popup;
+			sourceTree = "<group>";
+		};
+		C378AF2F2B83B24500985FF7 /* ImportAccount */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF302B83B25400985FF7 /* ImportAccountView.swift */,
+				C378AF322B83B25D00985FF7 /* ImportAccountViewModel.swift */,
+			);
+			path = ImportAccount;
+			sourceTree = "<group>";
+		};
+		C378AF342B83B2E200985FF7 /* TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				C378AF352B83B2EE00985FF7 /* CustomTextEditor.swift */,
+			);
+			path = TextEditor;
 			sourceTree = "<group>";
 		};
 		C3BEAA822B80C40300C04F29 /* BlockChain */ = {
@@ -297,6 +321,7 @@
 		D9618D6E2B7C7A7C0036FC3F /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				C378AF2F2B83B24500985FF7 /* ImportAccount */,
 				C378AF222B80E6F500985FF7 /* AccessAccount */,
 				C378AF0A2B80CBC700985FF7 /* GenerateMnemonic */,
 				C378AF092B80CBBD00985FF7 /* CreatePassword */,
@@ -480,6 +505,7 @@
 				D9618D502B7C79450036FC3F /* AppDelegate.swift in Sources */,
 				C378AF122B80D26D00985FF7 /* GenerateMnemonicKeyViewModel.swift in Sources */,
 				C378AF262B80E72F00985FF7 /* AccessAccountViewModel.swift in Sources */,
+				C378AF332B83B25D00985FF7 /* ImportAccountViewModel.swift in Sources */,
 				C378AF0C2B80CBDA00985FF7 /* CreatePasswordView.swift in Sources */,
 				D9618D742B7C7AA60036FC3F /* WalletView.swift in Sources */,
 				D9618D762B7C7AAB0036FC3F /* SendView.swift in Sources */,
@@ -497,6 +523,8 @@
 				C378AF2D2B80F5DE00985FF7 /* MnemonicBuilder.swift in Sources */,
 				C3BEAA7F2B80C3C700C04F29 /* Constants.swift in Sources */,
 				C378AF212B80E4AC00985FF7 /* UserDefaultsKeys.swift in Sources */,
+				C378AF362B83B2EE00985FF7 /* CustomTextEditor.swift in Sources */,
+				C378AF312B83B25400985FF7 /* ImportAccountView.swift in Sources */,
 				C378AF182B80E3C500985FF7 /* LocalDBManager.swift in Sources */,
 				C3BEAA812B80C3D600C04F29 /* AuthMainViewModel.swift in Sources */,
 				C378AF102B80D26700985FF7 /* GenerateMnemonicKeyView.swift in Sources */,
